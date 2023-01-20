@@ -105,6 +105,6 @@ main#servers > section .server > div.info{
 }
 main#servers > section .server > div.info > h3{
     font-size: 0.75em;
-    text-decoration: none;
     color: rgba(255,255,255,0.5);}
+a{text-decoration: none;}
 </style>
