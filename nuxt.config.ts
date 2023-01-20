@@ -2,5 +2,10 @@
 export default defineNuxtConfig({
     modules: [
         "@nuxtjs/supabase"
-    ]
+    ],
+    app: {
+        head: {
+            title: "Hypsipyle"
+        }
+    }
 })
