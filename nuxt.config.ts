@@ -5,7 +5,10 @@ export default defineNuxtConfig({
     ],
     app: {
         head: {
-            title: "Hypsipyle"
+            title: "Hypsipyle",
+            link: [
+                { rel: "icon", href: "Hypsipyle.ico" }
+            ]
         }
     }
 })
